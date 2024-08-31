@@ -1,0 +1,11 @@
+INSERT INTO categories (category_id, category_name, description)VALUES
+    ('JU00', 'JUICE', 'All custom and packed fruit Juices'),
+    ('CK00', 'CAKES', 'Moist and decadent cakes made with rich and healthy flavours'),
+    ('FT00', 'FRUITS', 'Fresh fruits and vegetabless Unprocessed'),
+    ('LU00', 'LUNCH FOODS', 'Diferent Lunch Diet'),
+    ('SD00', 'SOFT DRINKS', 'All Soft Drinks'),
+    ('PM00', 'PLUS MEALS', 'All of our favorite meal combinations. Custom meals too'),
+    ('BV00', 'Beverages', 'All Beverages, cocoa, tea, coffee etc');
+
+
+

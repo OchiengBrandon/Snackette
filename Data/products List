@@ -1,0 +1,88 @@
+lunch_meals_query = "INSERT INTO products (product_id, name, description, nutrients, category_id, stockAmount, unitPrice)
+VALUES
+    ('LUN021', 'Spaghetti Carbonara', 'Creamy pasta dish with pancetta and cheese', 'Protein, Carbohydrates', 'LU00', 50, 450.00),
+    ('LUN022', 'Chicken Teriyaki', 'Grilled chicken in sweet soy sauce', 'Protein, Vitamin C', 'LU00', 40, 520.00),
+    ('LUN023', 'Nasi Goreng', 'Indonesian fried rice with vegetables and fried egg', 'Carbohydrates, Protein', 'LU00', 30, 490.00),
+    ('LUN024', 'Pad Thai', 'Thai stir-fried noodles with tofu, shrimp, or chicken', 'Protein, Vitamin A', 'LU00', 45, 480.00),
+    ('LUN025', 'Hamburger', 'Classic American sandwich with beef patty and toppings', 'Protein, Carbohydrates', 'LU00', 35, 510.00),
+    ('LUN026', 'Croque Monsieur', 'French grilled ham and cheese sandwich', 'Protein, Calcium', 'LU00', 55, 470.00),
+    ('LUN027', 'Sushi Platter', 'Assorted Japanese sushi rolls and sashimi', 'Protein, Omega-3 Fatty Acids', 'LU00', 50, 490.00),
+    ('LUN028', 'Chicken Tikka Masala', 'Indian curry dish with grilled chicken in creamy tomato sauce', 'Protein, Vitamin C', 'LU00', 60, 500.00),
+    ('LUN029', 'Bangers and Mash', 'British dish with sausages and mashed potatoes', 'Protein, Carbohydrates', 'LU00', 40, 480.00),
+    ('LUN030', 'Gyudon', 'Japanese beef and rice bowl with onions', 'Protein, Iron', 'LU00', 65, 540.00),
+    ('LUN031', 'Taco Al Pastor', 'Mexican taco with marinated pork and pineapple', 'Protein, Vitamin C', 'LU00', 55, 470.00),
+    ('LUN032', 'Chicken Shawarma', 'Middle Eastern wrap with grilled chicken and tahini sauce', 'Protein, Healthy Fats', 'LU00', 30, 520.00),
+    ('LUN033', 'Pierogi', 'Polish dumplings filled with potato, cheese, or meat', 'Protein, Carbohydrates', 'LU00', 45, 480.00),
+    ('LUN034', 'Bibimbap', 'Korean mixed rice bowl with vegetables and gochujang sauce', 'Protein, Fiber', 'LU00', 50, 490.00),
+    ('LUN035', 'Ramen', 'Japanese noodle soup with broth, noodles, and toppings', 'Protein, Carbohydrates', 'LU00', 40, 510.00),
+    ('LUN036', 'Paella', 'Spanish saffron rice dish with seafood, chicken, or vegetables', 'Protein, Iron', 'LU00', 35, 470.00),
+    ('LUN037', 'Fettuccine Alfredo', 'Italian pasta dish with creamy Parmesan sauce', 'Protein, Calcium', 'LU00', 60, 500.00),
+    ('LUN038', 'Falafel Wrap', 'Middle Eastern wrap with fried chickpea patties and tahini sauce', 'Protein, Fiber', 'LU00', 25, 540.00),
+    ('LUN039', 'Peking Duck Pancakes', 'Chinese dish with roasted duck wrapped in pancakes', 'Protein, Healthy Fats', 'LU00', 40, 480.00),
+    ('LUN040', 'Moussaka', 'Greek baked dish with layers of eggplant, potatoes, and ground meat', 'Protein, Fiber', 'LU00', 45, 520.00);
+"
+juice_meals_query = "INSERT INTO products (product_id, name, description, nutrients, category_id, stockAmount, unitPrice)
+VALUES
+    ('JU004', 'Pineapple Juice', 'Freshly squeezed pineapple juice', 'Vitamin C, Bromelain', 'JU00', 45, 240.90),
+    ('JU005', 'Cranberry Juice', '100% pure cranberry juice', 'Vitamin E, Antioxidants', 'JU00', 35, 269.43),
+    ('JU006', 'Watermelon Juice', 'Cold-pressed watermelon juice', 'Vitamin A, Lycopene', 'JU00', 55, 229.34),
+    ('JU007', 'Carrot Juice', 'Organic carrot juice', 'Vitamin K, Beta-carotene', 'JU00', 50, 179.71),
+    ('JU008', 'Tomato Juice', 'Freshly squeezed tomato juice', 'Vitamin C, Lycopene', 'JU00', 60, 149.76),
+    ('JU009', 'Pomegranate Juice', 'Premium pomegranate juice', 'Antioxidants, Polyphenols', 'JU00', 40, 299.56),
+    ('JU010', 'Mango Juice', 'Naturally sweet mango juice', 'Vitamin A, Vitamin C', 'JU00', 65, 196.21),
+    ('JU011', 'Lemonade', 'Classic lemonade made from fresh lemons', 'Vitamin C, Citric Acid', 'JU00', 55, 164.61),
+    ('JU012', 'Pear Juice', 'Delicious pear juice', 'Vitamin K, Copper', 'JU00', 30, 269.43),
+    ('JU013', 'Blueberry Juice', 'Pure blueberry juice', 'Vitamin C, Anthocyanins', 'JU00', 45, 299.56),
+    ('JU014', 'Guava Juice', 'Exotic guava juice', 'Vitamin A, Dietary Fiber', 'JU00', 50, 209.49),
+    ('JU015', 'Strawberry Juice', 'Freshly squeezed strawberry juice', 'Vitamin C, Folate', 'JU00', 40, 229.34),
+    ('JU016', 'Kiwi Juice', 'Tangy kiwi juice', 'Vitamin C, Vitamin K', 'JU00', 35, 199.20),
+    ('JU017', 'Passion Fruit Juice', 'Tropical passion fruit juice', 'Vitamin A, Vitamin C', 'JU00', 60, 299.56),
+    ('JU018', 'Lychee Juice', 'Refreshing lychee juice', 'Vitamin C, Copper', 'JU00', 25, 329.69),
+    ('JU019', 'Raspberry Juice', 'Rich raspberry juice', 'Vitamin K, Manganese', 'JU00', 40, 275.57);
+"
+soft_drinks_query = "INSERT INTO products (product_id, name, description, nutrients, category_id, stockAmount, unitPrice)
+VALUES
+    ('SD001', 'Coca-Cola', 'Classic carbonated soft drink', 'Carbonated water, Sugar, Caffeine', 'SD00', 50, 150.00),
+    ('SD002', 'Pepsi', 'Another popular carbonated soft drink', 'Carbonated water, High fructose corn syrup, Caffeine', 'SD00', 40, 140.00),
+    ('SD003', 'Sprite', 'Lemon-lime flavored soft drink', 'Carbonated water, Sugar, Natural flavors', 'SD00', 30, 130.00),
+    ('SD004', 'Fanta', 'Fruit-flavored carbonated soft drink', 'Carbonated water, Sugar, Natural flavors', 'SD00', 45, 120.00),
+    ('SD005', '7 Up', 'Lemon-lime flavored carbonated soft drink', 'Carbonated water, High fructose corn syrup, Natural flavors', 'SD00', 35, 110.00),
+    ('SD006', 'Mountain Dew', 'Citrus-flavored carbonated soft drink', 'Carbonated water, High fructose corn syrup, Caffeine', 'SD00', 55, 160.00),
+    ('SD007', 'Dr Pepper', 'Unique blend of 23 flavors', 'Carbonated water, Sugar, Caffeine', 'SD00', 50, 170.00),
+    ('SD008', 'Mirinda', 'Fruit-flavored carbonated soft drink', 'Carbonated water, Sugar, Natural flavors', 'SD00', 60, 180.00),
+    ('SD009', 'Schweppes', 'Variety of carbonated soft drinks', 'Carbonated water, Sugar, Natural flavors', 'SD00', 40, 130.00),
+    ('SD010', 'Sunkist', 'Orange-flavored carbonated soft drink', 'Carbonated water, High fructose corn syrup, Citric acid', 'SD00', 45, 140.00);
+"
+
+fruits_stock = "INSERT INTO products (product_id, name, description, nutrients, category_id, stockAmount, unitPrice)
+VALUES
+    ('FT001', 'Apple', 'Crisp and juicy fruit with a sweet-tart flavor', 'Vitamin C, Fiber', 'FT00', 50, 50.00),
+    ('FT002', 'Banana', 'Creamy and sweet tropical fruit', 'Potassium, Vitamin B6', 'FT00', 40, 40.00),
+    ('FT003', 'Orange', 'Bright and tangy citrus fruit', 'Vitamin C, Fiber', 'FT00', 30, 60.00),
+    ('FT004', 'Mango', 'Juicy and sweet tropical fruit', 'Vitamin A, Vitamin C', 'FT00', 45, 70.00),
+    ('FT005', 'Grapes', 'Sweet and juicy bite-sized fruits', 'Antioxidants, Resveratrol', 'FT00', 35, 80.00),
+    ('FT006', 'Strawberry', 'Sweet and fragrant berry with a juicy texture', 'Vitamin C, Fiber', 'FT00', 55, 90.00),
+    ('FT007', 'Pineapple', 'Tropical fruit with a sweet and tangy flavor', 'Vitamin C, Bromelain', 'FT00', 50, 100.00),
+    ('FT008', 'Watermelon', 'Refreshing and hydrating summer fruit', 'Vitamin A, Vitamin C', 'FT00', 60, 30.00),
+    ('FT009', 'Kiwi', 'Tart and tangy fruit with a fuzzy brown skin', 'Vitamin C, Fiber', 'FT00', 40, 70.00),
+    ('FT010', 'Papaya', 'Sweet and tropical fruit with orange flesh and black seeds', 'Vitamin C, Papain', 'FT00', 45, 80.00);
+"
+
+cakes_stock = "INSERT INTO products (product_id, name, description, nutrients, category_id, stockAmount, unitPrice)
+VALUES
+    ('CK001', 'Chocolate Cake', 'Moist and decadent cake made with rich chocolate', 'Sugar, Flour, Cocoa', 'CK00', 50, 25.00),
+    ('CK002', 'Red Velvet Cake', 'Velvety smooth cake with a hint of cocoa and tangy cream cheese frosting', 'Sugar, Flour, Cocoa', 'CK00', 40, 30.00),
+    ('CK003', 'Carrot Cake', 'Spiced cake made with grated carrots and topped with cream cheese frosting', 'Sugar, Flour, Carrots', 'CK00', 30, 35.00),
+    ('CK004', 'Cheesecake', 'Creamy and smooth dessert made with cream cheese, eggs, and sugar on a graham cracker crust', 'Sugar, Cream Cheese, Eggs', 'CK00', 45, 40.00),
+    ('CK005', 'Tiramisu', 'Italian dessert made with layers of coffee-soaked ladyfingers and mascarpone cheese', 'Sugar, Espresso, Mascarpone', 'CK00', 35, 45.00),
+    ('CK006', 'Black Forest Cake', 'German cake made with layers of chocolate sponge cake, whipped cream, and cherries', 'Sugar, Flour, Cherries', 'CK00', 55, 50.00),
+    ('CK007', 'Lemon Drizzle Cake', 'Zesty and moist cake with a lemon glaze', 'Sugar, Flour, Lemons', 'CK00', 50, 30.00),
+    ('CK008', 'Angel Food Cake', 'Light and airy sponge cake made with egg whites and sugar', 'Sugar, Egg Whites, Flour', 'CK00', 60, 20.00),
+    ('CK009', 'Pavlova', 'Meringue-based dessert topped with whipped cream and fresh fruit', 'Sugar, Egg Whites, Cream', 'CK00', 40, 35.00),
+    ('CK010', 'Opera Cake', 'French cake made with layers of almond sponge cake, coffee buttercream, and chocolate ganache', 'Sugar, Flour, Almonds', 'CK00', 45, 40.00),
+    ('CK011', 'Sachertorte', 'Austrian chocolate cake with a layer of apricot jam and a chocolate glaze', 'Sugar, Flour, Cocoa', 'CK00', 30, 35.00),
+    ('CK012', 'Fruitcake', 'Dense cake filled with candied fruit and nuts, often soaked in alcohol', 'Sugar, Flour, Dried Fruit', 'CK00', 45, 30.00),
+    ('CK013', 'Victoria Sponge Cake', 'Traditional British sponge cake filled with jam and whipped cream', 'Sugar, Flour, Jam', 'CK00', 50, 25.00),
+    ('CK014', 'Panettone', 'Italian sweet bread loaf filled with dried fruits and nuts', 'Sugar, Flour, Dried Fruit', 'CK00', 35, 40.00),
+    ('CK015', 'Baklava', 'Middle Eastern pastry made with layers of phyllo dough, honey, and nuts', 'Sugar, Phyllo Dough, Nuts', 'CK00', 40, 45.00);
+"
